@@ -4,7 +4,7 @@ window.usages = null;
 window.choice = [];
 window.mapSpacesId = []; 
 window.mapUsagesId = [];
-
+ 
 var afterVenueLoad = function() {
 	 HireSpace.GetAllSpaces(function (spaces) {
 	window.spaces = spaces;
