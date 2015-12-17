@@ -102,7 +102,7 @@
 	var getAllVenues = function(callback) {
 		atomic.get('https://hackkings.hirespace.com/Api/Venues').success(callback);
 	};	
-
+ 
 	var hireSpace = {
 		Search: search,
 		GetUsage: getUsage,
